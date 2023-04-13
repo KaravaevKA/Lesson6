@@ -1,6 +1,7 @@
 package lesson6;
 
 import phoneBook.E1;
+import phoneBook.E2;
 import phoneBook.PhoneDB;
 import task.Task1;
 import vetProgram.Cat;
@@ -24,8 +25,9 @@ public class Main {
 //        Cat cat1 = new Cat("Барсик", 2, "Сиамский", owner);
 //        System.out.println(cat);
 //        System.out.println(cat.equals(cat1));
-        E1 phoneDB = new E1();
-        phoneDB.NewNumber((new PhoneDB("Иван", "Иванов","1235488")));
-        System.out.println(phoneDB.phoneBook);
+//        E1 phoneDB = new E1();
+//        phoneDB.NewNumber((new PhoneDB("Иван", "Иванов","1235488")));
+//        System.out.println(phoneDB.phoneBook);
+        E2.Run();
     }
 }
