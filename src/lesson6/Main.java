@@ -1,5 +1,7 @@
 package lesson6;
 
+import homework.Example1;
+import homework.Laptop;
 import phoneBook.E1;
 import phoneBook.E2;
 import phoneBook.PhoneDB;
@@ -7,7 +9,8 @@ import task.Task1;
 import vetProgram.Cat;
 import vetProgram.Owner;
 
-import static task.Task1.*;
+
+
 
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +22,7 @@ public class Main {
 //        double percent = integerSet.size() * 100/ arr.length;
 //        System.out.println("Percentage: " + percent);
 //        System.arraycopy();
-//        Owner owner = new Owner("Василий Петрович","1235555");
+//        Owner owner = new Owner("Василий Петрович", "1235555");
 //        Cat cat = new Cat("Барсик", 2, "Сиамский", owner);
 //        cat.sleep(true);
 //        Cat cat1 = new Cat("Барсик", 2, "Сиамский", owner);
@@ -28,6 +31,7 @@ public class Main {
 //        E1 phoneDB = new E1();
 //        phoneDB.NewNumber((new PhoneDB("Иван", "Иванов","1235488")));
 //        System.out.println(phoneDB.phoneBook);
-        E2.Run();
+//        E2.Run();
+
     }
 }
